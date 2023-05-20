@@ -1,0 +1,108 @@
+/* GENERAL STYLES */
+
+html {
+  background: #000;
+  color: #b9b8ba;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+}
+
+/* COLOR */
+
+.invert-container {
+  background: #fff;
+  color: #000;
+}
+
+/* LAYOUT */
+
+.app {
+  width: 100%;
+}
+
+.invert-container {
+  width: 100%;
+}
+
+.coordinate-container,
+.address-container {
+  width: 80%;
+  max-width: 830px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.information-container {
+  border: 2px solid black;
+  padding: 1em;
+  margin-bottom: 2em;
+}
+.address-container .information-container {
+  border: 2px solid #b9b8ba;
+}
+
+.field,
+.coord-field {
+  display: flex;
+}
+
+.coord-field {
+  flex-wrap: wrap;
+}
+
+.lat-field {
+  padding-right: 3em;
+}
+
+.value {
+  padding-left: 0.5em;
+}
+
+.user-input {
+  background: #000;
+  color: #fff;
+  border: 1px solid #9b9c9b;
+  display: block;
+  width: 100%;
+  padding: 0.4em 1em;
+  margin-bottom: 1em;
+}
+
+.user-button {
+  background: #fff;
+  color: #000;
+  border: none;
+  padding: 0.4em 2em;
+}
+
+.address-result {
+  display: none;
+}
+
+.warning {
+  margin-top: 2em;
+  display: none;
+  color: red;
+}
+
+.address-container h1,
+h2 {
+  color: white;
+}
+
+@media (max-width: 400px) {
+  .value {
+    padding-left: 0.3em;
+  }
+  .user-button {
+    padding: 0.4em 1em;
+  }
+}

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Time Zone Finder</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
+    <link href="css/style.css" rel="stylesheet" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="app">
+      <div class="invert-container">
+        <section class="coordinate-container">
+          <h1>TimeZone API</h1>
+          <h1>Your Current Time Zone</h1>
+          <div class="information-container">
+            <div class="field time-zone-name-field">
+              <div class="key">Name Of Time Zone:</div>
+              <div class="value"></div>
+            </div>
+            <div class="coord-field">
+              <div class="field lat-field">
+                <div class="key">Lat:</div>
+                <div class="value"></div>
+              </div>
+              <div class="field long-field">
+                <div class="key">Long:</div>
+                <div class="value"></div>
+              </div>
+            </div>
+            <div class="field std-field">
+              <div class="key">Offset STD:</div>
+              <div class="value"></div>
+            </div>
+            <div class="field std-sec-field">
+              <div class="key">Offset STD Seconds:</div>
+              <div class="value"></div>
+            </div>
+            <div class="field dst-field">
+              <div class="key">Offset DST:</div>
+              <div class="value"></div>
+            </div>
+            <div class="field dst-sec-field">
+              <div class="key">Offset DST Seconds:</div>
+              <div class="value"></div>
+            </div>
+            <div class="field country-field">
+              <div class="key">Country:</div>
+              <div class="value"></div>
+            </div>
+            <div class="field postcode-field">
+              <div class="key">Postcode:</div>
+              <div class="value"></div>
+            </div>
+            <div class="field city-field">
+              <div class="key">City:</div>
+              <div class="value"></div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <section class="address-container">
+        <div class="address-input">
+          <h1>Enter Address</h1>
+          <input
+            type="text"
+            class="user-input"
+            value=""
+            placeholder="Address"
+          />
+          <input type="button" class="user-button" value="Submit" />
+        </div>
+        <div class="address-result">
+          <h1>Your Result</h1>
+          <div class="information-container">
+            <div class="field time-zone-name-field">
+              <div class="key">Name Of Time Zone:</div>
+              <div class="value"></div>
+            </div>
+            <div class="coord-field">
+              <div class="field lat-field">
+                <div class="key">Lat:</div>
+                <div class="value"></div>
+              </div>
+              <div class="field long-field">
+                <div class="key">Long:</div>
+                <div class="value"></div>
+              </div>
+            </div>
+            <div class="field std-field">
+              <div class="key">Offset STD:</div>
+              <div class="value"></div>
+            </div>
+            <div class="field std-sec-field">
+              <div class="key">Offset STD Seconds:</div>
+              <div class="value"></div>
+            </div>
+            <div class="field dst-field">
+              <div class="key">Offset DST:</div>
+              <div class="value"></div>
+            </div>
+            <div class="field dst-sec-field">
+              <div class="key">Offset DST Seconds:</div>
+              <div class="value"></div>
+            </div>
+            <div class="field country-field">
+              <div class="key">Country:</div>
+              <div class="value"></div>
+            </div>
+            <div class="field postcode-field">
+              <div class="key">Postcode:</div>
+              <div class="value"></div>
+            </div>
+            <div class="field city-field">
+              <div class="key">City:</div>
+              <div class="value"></div>
+            </div>
+          </div>
+        </div>
+        <div class="warning">Please enter an address</div>
+      </section>
+    </div>
+  </body>
+</html>
